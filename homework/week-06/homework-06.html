@@ -2576,6 +2576,21 @@ k\in\{1,3,5,10,20\}.
 <p>I posted the assessment and detailed revision plan in <a href="https://github.com/brisajasso/stat432-fall2026/issues/2">the peer review GitHub issue</a>.</p>
 </section>
 </section>
+<section id="additional-review-stallur10-homework-05-question-5" class="level3">
+<h3 class="anchored" data-anchor-id="additional-review-stallur10-homework-05-question-5">Additional review: stallur10, Homework 05 Question 5</h3>
+<p>I also reviewed <a href="https://github.com/stallur10/stat432-fall2026/blob/main/homework/week-05/homework-05.html">stallur10’s Homework 05 report</a>. Its plot-formatting skill specifies:</p>
+<blockquote class="blockquote">
+<p>Default to a 6.5 by 4.5 inch figure, 12-point axis/tick labels, and a 14-point title</p>
+</blockquote>
+<p>Yet its single-panel example uses:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>plt.xticks(k_values[::<span class="dv">2</span>], fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>plt.yticks(fontsize<span class="op">=</span><span class="dv">10</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>My assessment (written without AI assistance):</p>
+<blockquote class="blockquote">
+<p>The skill says labels should defaut to 12 pts but the example uses 10 pt x, y-ticks. That doesn’t seem to match the example well.</p>
+</blockquote>
+<p>The example can follow its stated default by setting both tick-label font sizes to 12 while leaving the existing axis labels and title as they are. If the x-axis becomes crowded, showing fewer tick positions or widening the figure would keep the labels readable. Alternatively, the skill could explicitly change its default to 10-point ticks. The skill and example should state and implement the same rule. I posted this assessment and the revision plan in <a href="https://github.com/stallur10/stat432-fall2026/issues/3">the second peer review GitHub issue</a>.</p>
+</section>
 </section>
 
 </main>
