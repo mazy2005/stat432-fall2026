@@ -2224,11 +2224,11 @@ vertical-align: -.125em;
              <p>Zhiyuan Ma (mazy2005) </p>
           </div>
   </div>
-    
-  
-    
+
+
+
   </div>
-  
+
 
 
 </header>
@@ -2701,7 +2701,7 @@ pre,pre code {font-size:8.5pt !important; line-height:1.08 !important; white-spa
     anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
+        if (clz.startsWith('code-annotation-')) {
           return true;
         }
       }
@@ -2721,11 +2721,11 @@ pre,pre code {font-size:8.5pt !important; line-height:1.08 !important; white-spa
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();    
+        tooltip.show();
       }
       setTimeout(function() {
         if (tooltip) {
@@ -2802,7 +2802,7 @@ pre,pre code {font-size:8.5pt !important; line-height:1.08 !important; white-spa
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config); 
+      window.tippy(el, config);
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -2877,7 +2877,7 @@ pre,pre code {font-size:8.5pt !important; line-height:1.08 !important; white-spa
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined; 
+        let hash = undefined;
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -2905,7 +2905,7 @@ pre,pre code {font-size:8.5pt !important; line-height:1.08 !important; white-spa
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              } 
+              }
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -2929,7 +2929,7 @@ pre,pre code {font-size:8.5pt !important; line-height:1.08 !important; white-spa
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -2969,7 +2969,7 @@ pre,pre code {font-size:8.5pt !important; line-height:1.08 !important; white-spa
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
+              // cook up a div (if necessary) and position it
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
